@@ -1,0 +1,136 @@
+body {
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/concrete_seamless.png");
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+header {
+  width: 960px;
+  padding: 0px 195px 0px 195px;
+  height: 75px;
+  margin: auto;
+  background-color: #ffffff;
+  border-bottom: #cccccc 1px solid;
+}
+
+.logo {
+  float: left;
+  background-color: #4aaaaf;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav {
+  background-color: #ffffff;
+  color: #777777;
+  list-style: none;
+  text-align: right;
+  float: right;
+  margin: 20px;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #777777;
+  padding: 15px;
+}
+
+#main {
+  background-color: #ffffff;
+  width: 960px;
+  margin: 20px 0px 20px 195px;
+  padding: 20px;
+  height: 600px;
+  border: 1px solid #dddddd;
+}
+
+#main-contact {
+  background-color: #ffffff;
+  width: 600px;
+  margin: 20px 0px 20px 350px;
+  padding: 20px;
+  height: 450px;
+  border: 1px solid #dddddd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="name"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+#contact-form {
+  padding: 20px;
+}
+
+li {
+  padding: 5px;
+}
+
+#main > h1 {
+  border-bottom: #dddddd 2px solid;
+}
+
+#main > p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+p {
+  line-height: 2;
+}
+
+#section > img {
+  width: 150px;
+  height: 200px;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+footer {
+  background-color: #666666;
+  color: #ffffff;
+  height: 40px;
+  margin-top: 58px;
+  border-top: #4aaaaf 5px solid;
+  padding-top: 35px;
+}
+
+footer > .container {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.work > img {
+  height: 200px;
+  width: 200px;
+}
+
+.work {
+  float: left;
+  margin: 20px;
+}
