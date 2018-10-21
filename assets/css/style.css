@@ -15,9 +15,8 @@ h1 {
 }
 
 header {
-  width: 960px;
-  padding: 0px 195px 0px 195px;
   height: 75px;
+  width: 100%;
   margin: auto;
   background-color: #ffffff;
   border-bottom: #cccccc 1px solid;
@@ -27,7 +26,8 @@ header {
   float: left;
   background-color: #4aaaaf;
   color: #ffffff;
-  margin-bottom: 20px;
+  margin: auto;
+  margin-left: 195px;
 }
 
 .logo > a {
@@ -38,10 +38,10 @@ header {
 nav {
   background-color: #ffffff;
   color: #777777;
-  list-style: none;
   text-align: right;
   float: right;
   margin: 20px;
+  margin-right: 140px;
 }
 
 nav > a {
@@ -55,8 +55,16 @@ nav > a {
   width: 960px;
   margin: 20px 0px 20px 195px;
   padding: 20px;
-  height: 600px;
   border: 1px solid #dddddd;
+}
+
+#main-portfolio {
+  background-color: #ffffff;
+  width: 960px;
+  margin: 20px 0px 20px 195px;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  height: 600px;
 }
 
 #main-contact {
@@ -118,6 +126,7 @@ footer {
   margin-top: 58px;
   border-top: #4aaaaf 5px solid;
   padding-top: 35px;
+  width: 100%;
 }
 
 footer > .container {
@@ -134,3 +143,161 @@ footer > .container {
   float: left;
   margin: 20px;
 }
+
+@media screen and (min-width: 980px) {
+  header {
+    width: 100%;
+    margin: 0px;
+  }
+
+  #main {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 979px) {
+  #main {
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 894px) {
+  nav {
+    margin-right: 90px;
+    margin-top: 30px;
+  }
+
+  #main {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 844px) {
+  .logo {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+  }
+
+  nav {
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  #main {
+    margin: auto;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 753px) {
+  .logo {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+  }
+
+  nav {
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  #main {
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .logo {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+  }
+
+  nav {
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  #main > #section > img {
+    clear: both;
+  }
+
+  #main {
+    margin: 0px;
+    margin-top: 100px;
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+/* @media only screen and (max-width: 768px) {
+  #main {
+    background-color: #ffffff;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+  }
+
+  .logo {
+    margin-left: 100px;
+  }
+
+  nav {
+    margin-right: 90px;
+    margin-top: 30px;
+  }
+
+  body {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .logo {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+  }
+
+  #main {
+    margin-top: 100px;
+  }
+
+  #main > #section > img {
+    width: 200px;
+    height: 300px;
+    margin: 50px;
+  }
+
+  nav {
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    height: 40px;
+    padding: 20px 150px 0px 0px;
+  }
+} */
