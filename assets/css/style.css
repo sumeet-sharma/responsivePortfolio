@@ -58,6 +58,10 @@ nav > a {
   border: 1px solid #dddddd;
 }
 
+#main > p {
+  text-align: justify;
+}
+
 #main-portfolio {
   background-color: #ffffff;
   width: 960px;
